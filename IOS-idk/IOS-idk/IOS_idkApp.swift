@@ -25,7 +25,7 @@ struct IOS_idkApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
         }
         .modelContainer(sharedModelContainer)
     }
