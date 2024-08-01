@@ -19,6 +19,10 @@
 		F11AAD512C5A433D00E0F086 /* NotificationIssues.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11AAD502C5A433D00E0F086 /* NotificationIssues.swift */; };
 		F11AAD532C5A434D00E0F086 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11AAD522C5A434D00E0F086 /* AppState.swift */; };
 		F11AAD562C5A440100E0F086 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11AAD552C5A440100E0F086 /* Notification.swift */; };
+		F1DD8EB42C5B86440059C3D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD8EB32C5B86430059C3D1 /* AppDelegate.swift */; };
+		F1DD8EB62C5B874D0059C3D1 /* NotificationMySivs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD8EB52C5B874D0059C3D1 /* NotificationMySivs.swift */; };
+		F1DD8EB82C5B899D0059C3D1 /* NotificationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD8EB72C5B899D0059C3D1 /* NotificationBox.swift */; };
+		F1DD8EBA2C5B926F0059C3D1 /* ShareSivView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD8EB92C5B926F0059C3D1 /* ShareSivView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		F11AAD502C5A433D00E0F086 /* NotificationIssues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationIssues.swift; sourceTree = "<group>"; };
 		F11AAD522C5A434D00E0F086 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		F11AAD552C5A440100E0F086 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		F1DD8EB32C5B86430059C3D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1DD8EB52C5B874D0059C3D1 /* NotificationMySivs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMySivs.swift; sourceTree = "<group>"; };
+		F1DD8EB72C5B899D0059C3D1 /* NotificationBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBox.swift; sourceTree = "<group>"; };
+		F1DD8EB92C5B926F0059C3D1 /* ShareSivView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSivView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,7 @@
 				F11AAD522C5A434D00E0F086 /* AppState.swift */,
 				F11AAD542C5A43D900E0F086 /* Data+Models */,
 				F11AAD4F2C5A432600E0F086 /* Issues */,
+				F1DD8EB32C5B86430059C3D1 /* AppDelegate.swift */,
 			);
 			path = "IOS-idk";
 			sourceTree = "<group>";
@@ -148,6 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				F11AAD502C5A433D00E0F086 /* NotificationIssues.swift */,
+				F1DD8EB52C5B874D0059C3D1 /* NotificationMySivs.swift */,
+				F1DD8EB72C5B899D0059C3D1 /* NotificationBox.swift */,
+				F1DD8EB92C5B926F0059C3D1 /* ShareSivView.swift */,
 			);
 			path = Issues;
 			sourceTree = "<group>";
@@ -290,10 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DD8EB42C5B86440059C3D1 /* AppDelegate.swift in Sources */,
 				F11AAD232C5A31CB00E0F086 /* ContentView.swift in Sources */,
+				F1DD8EB82C5B899D0059C3D1 /* NotificationBox.swift in Sources */,
+				F1DD8EB62C5B874D0059C3D1 /* NotificationMySivs.swift in Sources */,
 				F11AAD512C5A433D00E0F086 /* NotificationIssues.swift in Sources */,
 				F11AAD252C5A31CB00E0F086 /* Item.swift in Sources */,
 				F11AAD562C5A440100E0F086 /* Notification.swift in Sources */,
+				F1DD8EBA2C5B926F0059C3D1 /* ShareSivView.swift in Sources */,
 				F11AAD532C5A434D00E0F086 /* AppState.swift in Sources */,
 				F11AAD4E2C5A42F100E0F086 /* Home.swift in Sources */,
 				F11AAD212C5A31CB00E0F086 /* IOS_idkApp.swift in Sources */,
